@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   
     function searchInCSV(term) {
-      fetch('/data.csv')
+      fetch('Mental health Depression disorder Data.csv')
         .then(response => response.text())
         .then(data => {
           const rows = data.split('\n');
